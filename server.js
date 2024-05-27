@@ -45,3 +45,6 @@ app.post('/api/items', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
+
+// npm i
+// node server.js
