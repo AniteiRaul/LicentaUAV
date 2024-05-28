@@ -204,19 +204,19 @@
 			<div class="contentBx redBg">
 				<div class="form" data-sal="slide-right" data-sal-duration="500">
 					<div class="inputBx">
-						<input type="text" name="" placeholder="Full Name">
+						<input type="text" id="name" name="name" placeholder="Full Name">
 					</div>
 					<div class="inputBx">
-						<input type="text" name="" placeholder="Email Address">
+						<input type="text" id="email" name="email" placeholder="Email Address">
 					</div>
 					<div class="inputBx">
-						<input type="text" name="" placeholder="Mobile No.">
+						<input type="text" id="phone" name="phone" placeholder="Mobile No.">
 					</div>
 					<div class="inputBx">
-						<textarea placeholder="Write your message here..."></textarea>
+						<textarea id="message" name="message" placeholder="Write your message here..."></textarea>
 					</div>
 					<div class="inputBx">
-						<input type="submit" value="Send" name="">
+						<input id="save" type="submit" value="Send" name="">
 					</div>
 				</div>
 			</div>
@@ -238,6 +238,7 @@
 
 
 	<script type="text/javascript" src="sal.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
 	<script type="text/javascript">
 
 		sal({
