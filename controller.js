@@ -16,9 +16,10 @@ document.getElementById('save').addEventListener('click', async (event) => {
         });
 
         const result = await response.json();
+        location.reload()
         // alert(result.message);
     } catch (error) {
         console.error('Error:', error);
-        // alert('Error saving item');
+        alert('Error saving item');
     }
 });
